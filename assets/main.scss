@@ -1,0 +1,50 @@
+*{
+    font-family: 'PX GROTESK';
+
+    letter-spacing: -1.8%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    @apply bg-B4;
+}
+
+h1{
+    font-size: 33px;
+    line-height: 160%;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: bold;
+}
+
+h3{
+    color: white;
+    font-size: 23px;
+    line-height: 130%;
+    font-weight: bold;
+}
+
+
+p{
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+    &.bold{
+        font-weight: bold;
+    }
+    &.grande{
+        font-size: 19px;
+    }
+    &.pequeño{
+        font-size: 13px;
+    }
+    &.extrapequeño{
+        font-size: 11px;
+    }
+}
